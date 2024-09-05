@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from mlxtend.plotting import plot_decision_regions
 from PIL import Image
 
-Hyp=Image.open(r"C:\Users\RAGHAVENDRA KUMAR\Downloads\hyperparameters-in-machine-learning2.png")
+Hyp=Image.open("hyperparameters-in-machine-learning2.png")
 st.image(Hyp,use_column_width=False)
 
 # Generate synthetic dataset
